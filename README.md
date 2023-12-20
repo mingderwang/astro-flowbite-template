@@ -1,7 +1,20 @@
+# astro-flowbite
+
+## Features
+- [Bun](https://bun.sh/) -> [Build an app with Astro and Bun](https://bun.sh/guides/ecosystem/astro)
+- [Astro](https://astro.build/) -> 
+- [Flowbite](https://flowbite.com/docs/getting-started/astro/)
+
+
+
+
+
+
+
 # Astro Starter Kit: Minimal
 
 ```sh
-npm create astro@latest -- --template minimal
+npx bun create astro@latest -- --template minimal
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
@@ -33,14 +46,14 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command               | Action                                           |
+| :-------------------- | :----------------------------------------------- |
+| `bun i`               | Installs dependencies                            |
+| `bun dev`             | Starts local dev server at `localhost:4321`      |
+| `bun build`           | Build your production site to `./dist/`          |
+| `bun preview`         | Preview your build locally, before deploying     |
+| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `bun astro -- --help` | Get help using the Astro CLI                     |
 
 ## 👀 Want to learn more?
 
